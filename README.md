@@ -1,2 +1,2 @@
 # IntroTeam
-Introduction to my FE team
+Introduction to our FE team
