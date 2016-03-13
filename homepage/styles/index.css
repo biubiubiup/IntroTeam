@@ -20,7 +20,7 @@ body,h1, div,span,p,a,img,ul,li,a{
 			height: 60px;
 			/*background: url("logo.png") no-repeat left center;*/
 			/*红领巾*/
-			background: url("logo-hong.png") no-repeat left center;
+			background: url("../images/logo-hong.png") no-repeat left center;
 		}
 		.logo a,span{
 			display: block;
@@ -46,21 +46,24 @@ body,h1, div,span,p,a,img,ul,li,a{
 		
 		.member{
 			/*margin-left: 295px;*/
-			margin-top: 100px;
+			margin-top: 80px;
+			padding-top: 20px;
 			height: 350px;
 		}
 		.member ul{
 			list-style-type: none;
 			text-align: center;
+			vertical-align: top;
 		}
 		.member ul li{
 			display: inline-block;
 			width: 95px;
-			height: 180px;
+			/*height: 180px;*/
 			font-family: "微软雅黑";
 			background-color: #ededed;
 			color: #44546a;
 			margin-left: 6px;
+			padding-bottom: 10px;
 		}
 		.member ul li a{
 			text-decoration: none;
@@ -80,13 +83,14 @@ body,h1, div,span,p,a,img,ul,li,a{
 
 		.member ul li a:hover,.member ul li a:focus,.member ul li a:active{
 
-			margin-left: 4px;
+			/*margin-left: 0px;*/
 			background-color: #11cd6e;
 			color: #ffffff;
 			padding-bottom: 10px;
+
 		}
 		.logo a:hover,.logo a:focus,.logo a:active{
-			margin-left: 5px;
+			margin-left: 3px;
 		}
 		
 		.footer{
